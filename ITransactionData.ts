@@ -3,8 +3,11 @@ export interface ITransactionData {
   controllerId: string;
   injectorId: string;
   transactionType: string;
+  sourcePage: string;
   walletType: string;
   ysFees: number;
+  ysFeesAddress: string;
+  ysFeesRatio: number;
   ysFeesPaid: boolean;
   network: string;
   alreadyBonded: number;
